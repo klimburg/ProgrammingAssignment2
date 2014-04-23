@@ -1,3 +1,5 @@
+#https://class.coursera.org/rprog-002/human_grading/view/courses/972078/assessments/3/submissions
+#
 #The first function, makeVector creates a special "vector",
 #which is really a list containing a function to
 #     1) set the value of the vector
@@ -26,7 +28,7 @@ makeVector <- function(x = numeric()) {
 #computation. Otherwise, it calculates the mean of the data and sets the value 
 #of the mean in the cache via the setmean function.
 
-cachemean <- function(x, ...) {
+cacheMean <- function(x, ...) {
       m <- x$getmean()
       if(!is.null(m)) {
             message("getting cached data")
